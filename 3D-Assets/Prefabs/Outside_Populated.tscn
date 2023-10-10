@@ -1,0 +1,76 @@
+[gd_scene load_steps=3 format=3 uid="uid://ccrkfq1icim03"]
+
+[ext_resource type="PackedScene" uid="uid://y21wpcxeyu08" path="res://3D-Assets/Prefabs/outside_area.tscn" id="1_1vswv"]
+[ext_resource type="PackedScene" uid="uid://c3pxd2hvlquti" path="res://3D-Assets/Prefabs/fence.tscn" id="2_r5bcg"]
+
+[node name="Outside_Populated" type="Node3D"]
+
+[node name="OutsideArea" parent="." instance=ExtResource("1_1vswv")]
+
+[node name="Fences" type="Node3D" parent="."]
+
+[node name="Fence" parent="Fences" instance=ExtResource("2_r5bcg")]
+transform = Transform3D(0.830625, 0, 0, 0, 1, 0, 0, 0, 1, -0.932072, 0.4528, -5.18472)
+
+[node name="Fence2" parent="Fences" instance=ExtResource("2_r5bcg")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.04356, 0.4528, -5.18472)
+
+[node name="Fence3" parent="Fences" instance=ExtResource("2_r5bcg")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.24669, 0.4528, -5.18472)
+
+[node name="Fence4" parent="Fences" instance=ExtResource("2_r5bcg")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.45227, 0.4528, -5.18472)
+
+[node name="Fence8" parent="Fences" instance=ExtResource("2_r5bcg")]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -9.0211, 0.4528, -1.79878)
+
+[node name="Fence12" parent="Fences" instance=ExtResource("2_r5bcg")]
+transform = Transform3D(-3.74373e-08, 0, 1, 0, 1, 0, -0.856466, 0, -4.37114e-08, -9.0211, 0.4528, 0.208994)
+
+[node name="Fence13" parent="Fences" instance=ExtResource("2_r5bcg")]
+transform = Transform3D(-3.74373e-08, 0, 1, 0, 1, 0, -0.856466, 0, -4.37114e-08, -9.0211, 0.4528, 2.09437)
+
+[node name="Fence14" parent="Fences" instance=ExtResource("2_r5bcg")]
+transform = Transform3D(-3.74373e-08, 0, 1, 0, 1, 0, -0.856466, 0, -4.37114e-08, -9.0211, 0.4528, 4.02668)
+
+[node name="Fence9" parent="Fences" instance=ExtResource("2_r5bcg")]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -9.0211, 0.4528, -3.96841)
+
+[node name="Fence15" parent="Fences" instance=ExtResource("2_r5bcg")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -5.8493, 0.4528, 5.0891)
+
+[node name="Fence16" parent="Fences" instance=ExtResource("2_r5bcg")]
+transform = Transform3D(-0.856466, 0, -8.74228e-08, 0, 1, 0, 7.48746e-08, 0, -1, -3.84153, 0.4528, 5.0891)
+
+[node name="Fence17" parent="Fences" instance=ExtResource("2_r5bcg")]
+transform = Transform3D(-0.856466, 0, -8.74228e-08, 0, 1, 0, 7.48746e-08, 0, -1, -1.95615, 0.4528, 5.0891)
+
+[node name="Fence18" parent="Fences" instance=ExtResource("2_r5bcg")]
+transform = Transform3D(-0.856466, 0, -8.74228e-08, 0, 1, 0, 7.48746e-08, 0, -1, -0.0238447, 0.4528, 5.0891)
+
+[node name="Fence19" parent="Fences" instance=ExtResource("2_r5bcg")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -8.01894, 0.4528, 5.0891)
+
+[node name="Fence20" parent="Fences" instance=ExtResource("2_r5bcg")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 4.09491, 0.4528, 5.0891)
+
+[node name="Fence21" parent="Fences" instance=ExtResource("2_r5bcg")]
+transform = Transform3D(-0.856466, 0, -8.74228e-08, 0, 1, 0, 7.48746e-08, 0, -1, 6.10268, 0.4528, 5.0891)
+
+[node name="Fence22" parent="Fences" instance=ExtResource("2_r5bcg")]
+transform = Transform3D(-0.856466, 0, -8.74228e-08, 0, 1, 0, 7.48746e-08, 0, -1, 7.98806, 0.4528, 5.0891)
+
+[node name="Fence24" parent="Fences" instance=ExtResource("2_r5bcg")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 1.92528, 0.4528, 5.0891)
+
+[node name="Fence10" parent="Fences" instance=ExtResource("2_r5bcg")]
+transform = Transform3D(0.724864, 0, 0, 0, 1, 0, 0, 0, 1, -8.30301, 0.4528, -5.18488)
+
+[node name="Fence11" parent="Fences" instance=ExtResource("2_r5bcg")]
+transform = Transform3D(0.71782, 0, 0, 0, 1, 0, 0, 0, 1, -6.73261, 0.4528, -5.18472)
+
+[node name="Fence5" parent="Fences" instance=ExtResource("2_r5bcg")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.6219, 0.4528, -5.18472)
+
+[node name="Fence6" parent="Fences" instance=ExtResource("2_r5bcg")]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 8.85538, 0.4528, -4.04664)

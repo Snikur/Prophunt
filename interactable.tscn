@@ -1,0 +1,20 @@
+[gd_scene load_steps=3 format=3 uid="uid://ccp7y6j62aoc4"]
+
+[ext_resource type="Script" path="res://Interactable.gd" id="1_hyajf"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_fcwl3"]
+
+[node name="Interactable" type="Area3D"]
+collision_layer = 2
+collision_mask = 0
+script = ExtResource("1_hyajf")
+
+[node name="InteractableLabel" type="Label3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.5, 0)
+billboard = 2
+alpha_cut = 1
+text = "[E]"
+font_size = 64
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = SubResource("BoxShape3D_fcwl3")

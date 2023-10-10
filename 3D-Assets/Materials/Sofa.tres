@@ -1,0 +1,16 @@
+[gd_resource type="StandardMaterial3D" load_steps=6 format=3 uid="uid://gpsxg4jv6aat"]
+
+[ext_resource type="Texture2D" uid="uid://b156lwoqu4jkv" path="res://3D-Assets/Textures/Sofa_Tex/Sofa_Tex_Material.002_BaseColor.1001.png" id="1_ots2f"]
+[ext_resource type="Texture2D" uid="uid://xw1yy7hfs6ha" path="res://3D-Assets/Textures/Sofa_Tex/Sofa_Tex_Material.002_AO.1001.png" id="2_t6d78"]
+[ext_resource type="Texture2D" uid="uid://dh2m76g6xmp1b" path="res://3D-Assets/Textures/Sofa_Tex/Sofa_Tex_Material.002_Metallic.1001.png" id="3_cubpp"]
+[ext_resource type="Texture2D" uid="uid://clr7qagqf1gp8" path="res://3D-Assets/Textures/Sofa_Tex/Sofa_Tex_Material.002_Normal.1001.png" id="4_feolr"]
+[ext_resource type="Texture2D" uid="uid://cu25vyvygyw3o" path="res://3D-Assets/Textures/Sofa_Tex/Sofa_Tex_Material.002_Roughness.1001.png" id="5_3qw7e"]
+
+[resource]
+albedo_texture = ExtResource("1_ots2f")
+metallic = 1.0
+metallic_texture = ExtResource("3_cubpp")
+roughness_texture = ExtResource("5_3qw7e")
+normal_texture = ExtResource("4_feolr")
+ao_enabled = true
+ao_texture = ExtResource("2_t6d78")

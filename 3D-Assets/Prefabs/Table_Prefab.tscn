@@ -1,0 +1,21 @@
+[gd_scene load_steps=3 format=3 uid="uid://sc05bgsvl0cj"]
+
+[ext_resource type="PackedScene" uid="uid://bouffp5swjpd0" path="res://3D-Assets/Mesh/Table_Mesh.glb" id="1_8embs"]
+[ext_resource type="Material" uid="uid://un4rip0q11em" path="res://3D-Assets/Materials/Table.tres" id="2_wvmt0"]
+
+[node name="Table_Mesh" instance=ExtResource("1_8embs")]
+
+[node name="TabelLeg" parent="TablePivot" index="0"]
+material_override = ExtResource("2_wvmt0")
+
+[node name="TabelLeg_001" parent="TablePivot" index="1"]
+material_override = ExtResource("2_wvmt0")
+
+[node name="TabelLeg_002" parent="TablePivot" index="2"]
+material_override = ExtResource("2_wvmt0")
+
+[node name="TabelLeg_003" parent="TablePivot" index="3"]
+material_override = ExtResource("2_wvmt0")
+
+[node name="Table" parent="TablePivot" index="4"]
+material_override = ExtResource("2_wvmt0")

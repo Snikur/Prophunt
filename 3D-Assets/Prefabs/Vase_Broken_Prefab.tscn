@@ -1,0 +1,32 @@
+[gd_scene load_steps=4 format=3 uid="uid://6xjhv4ypy1e2"]
+
+[ext_resource type="PackedScene" uid="uid://cynfoeipg2t61" path="res://3D-Assets/Mesh/Vase_Broken_Mesh.glb" id="1_usjch"]
+[ext_resource type="Material" uid="uid://cb0rhdv7ec6di" path="res://3D-Assets/Materials/Box&Vase.tres" id="2_pcj85"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_qqkgj"]
+albedo_color = Color(0, 0, 0, 1)
+
+[node name="Vase_Broken_Mesh" instance=ExtResource("1_usjch")]
+
+[node name="VasePart5" parent="." index="0"]
+material_override = ExtResource("2_pcj85")
+
+[node name="VasePart1" parent="." index="1"]
+material_override = ExtResource("2_pcj85")
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="VasePart1" index="0"]
+transform = Transform3D(0.769863, 0, 0, 0, 0.0458191, 0, 0, 0, 0.769863, 0.573117, 2.35539, 0.00375986)
+radius = 0.72
+height = 1.54149
+sides = 20
+cone = true
+material = SubResource("StandardMaterial3D_qqkgj")
+
+[node name="VasePart2" parent="." index="2"]
+material_override = ExtResource("2_pcj85")
+
+[node name="VasePart3" parent="." index="3"]
+material_override = ExtResource("2_pcj85")
+
+[node name="VasePart4" parent="." index="4"]
+material_override = ExtResource("2_pcj85")

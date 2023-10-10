@@ -1,0 +1,14 @@
+[gd_scene load_steps=4 format=3 uid="uid://1ly51qyx1i00"]
+
+[ext_resource type="PackedScene" uid="uid://jvxkfaijorvw" path="res://3D-Assets/Mesh/Fridge_Mesh.glb" id="1_e2b34"]
+[ext_resource type="Material" uid="uid://btr1jgbxr0r4l" path="res://3D-Assets/Materials/Bed&Fridge.tres" id="2_hrpfv"]
+[ext_resource type="PackedScene" uid="uid://ccp7y6j62aoc4" path="res://interactable.tscn" id="3_cyp63"]
+
+[node name="Fridge_Mesh" instance=ExtResource("1_e2b34")]
+
+[node name="Fridge" parent="." index="0"]
+transform = Transform3D(7.54979e-08, 1, 0, -1, 7.54979e-08, 0, 0, 0, 1, 0.5, 1, -0.5)
+material_override = ExtResource("2_hrpfv")
+
+[node name="Interactable" parent="." index="1" instance=ExtResource("3_cyp63")]
+mesh_path = NodePath("../Fridge")

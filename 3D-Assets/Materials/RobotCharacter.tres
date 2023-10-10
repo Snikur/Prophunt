@@ -1,0 +1,25 @@
+[gd_resource type="StandardMaterial3D" load_steps=8 format=3 uid="uid://dujswasrplkow"]
+
+[ext_resource type="Texture2D" uid="uid://bct3n76mohkug" path="res://3D-Assets/Textures/RobotCharacter_Tex/robotCharacter_DefaultMaterial_BaseColor.png" id="1_5h5f3"]
+[ext_resource type="Texture2D" uid="uid://bf6pw0epemlrt" path="res://3D-Assets/Textures/RobotCharacter_Tex/robotCharacter_DefaultMaterial_AO.png" id="2_2aktb"]
+[ext_resource type="Texture2D" uid="uid://dwvvjv8mgpk5p" path="res://3D-Assets/Textures/RobotCharacter_Tex/robotCharacter_DefaultMaterial_Emissive.png" id="3_kxdvp"]
+[ext_resource type="Texture2D" uid="uid://cj8x0scngwrfl" path="res://3D-Assets/Textures/RobotCharacter_Tex/robotCharacter_DefaultMaterial_Metallic.png" id="4_ivkbs"]
+[ext_resource type="Texture2D" uid="uid://dnt3wu2fkwjed" path="res://3D-Assets/Textures/RobotCharacter_Tex/robotCharacter_DefaultMaterial_Normal.png" id="5_eg43c"]
+[ext_resource type="Texture2D" uid="uid://dr2pfk63pdva0" path="res://3D-Assets/Textures/RobotCharacter_Tex/robotCharacter_DefaultMaterial_Roughness.png" id="6_m3r6q"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_hx6lp"]
+
+[resource]
+albedo_texture = ExtResource("1_5h5f3")
+metallic = 1.0
+metallic_texture = ExtResource("4_ivkbs")
+roughness_texture = ExtResource("6_m3r6q")
+emission_enabled = true
+emission_energy_multiplier = 16.0
+emission_texture = ExtResource("3_kxdvp")
+normal_enabled = true
+normal_texture = ExtResource("5_eg43c")
+ao_enabled = true
+ao_texture = ExtResource("2_2aktb")
+heightmap_scale = 0.04
+heightmap_texture = SubResource("CompressedTexture2D_hx6lp")

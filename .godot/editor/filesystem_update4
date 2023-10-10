@@ -1,0 +1,13 @@
+res://player.tscn
+res://CharacterController.gd
+res://launcher.tscn
+res://3D-Assets/Prefabs/BoxV1_Prefab.tscn
+res://3D-Assets/Prefabs/BoxV2_Prefab.tscn
+res://3D-Assets/Prefabs/fence.tscn
+res://3D-Assets/Prefabs/frame.tscn
+res://3D-Assets/Prefabs/Fridge_Prefab.tscn
+res://interactable.tscn
+res://CameraController.gd
+res://Interactable.gd
+res://MultiplayerManager.gd
+res://MainMenu.gd

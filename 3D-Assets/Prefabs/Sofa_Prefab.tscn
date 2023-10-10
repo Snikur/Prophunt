@@ -1,0 +1,42 @@
+[gd_scene load_steps=3 format=3 uid="uid://452ofet1866r"]
+
+[ext_resource type="PackedScene" uid="uid://ctv4mnwdbsil" path="res://3D-Assets/Mesh/Sofa_Mesh.glb" id="1_7j1ia"]
+[ext_resource type="Material" uid="uid://gpsxg4jv6aat" path="res://3D-Assets/Materials/Sofa.tres" id="2_ui6n8"]
+
+[node name="Sofa_Mesh" instance=ExtResource("1_7j1ia")]
+
+[node name="Back" parent="Sofa" index="0"]
+material_override = ExtResource("2_ui6n8")
+
+[node name="BackPilloq" parent="Sofa" index="1"]
+material_override = ExtResource("2_ui6n8")
+
+[node name="BackPilloq_001" parent="Sofa" index="2"]
+material_override = ExtResource("2_ui6n8")
+
+[node name="Base" parent="Sofa" index="3"]
+material_override = ExtResource("2_ui6n8")
+
+[node name="BottomPillow" parent="Sofa" index="4"]
+material_override = ExtResource("2_ui6n8")
+
+[node name="BottomPillow_001" parent="Sofa" index="5"]
+material_override = ExtResource("2_ui6n8")
+
+[node name="Leg" parent="Sofa" index="6"]
+material_override = ExtResource("2_ui6n8")
+
+[node name="Leg_001" parent="Sofa" index="7"]
+material_override = ExtResource("2_ui6n8")
+
+[node name="Leg_002" parent="Sofa" index="8"]
+material_override = ExtResource("2_ui6n8")
+
+[node name="Leg_003" parent="Sofa" index="9"]
+material_override = ExtResource("2_ui6n8")
+
+[node name="Side" parent="Sofa" index="10"]
+material_override = ExtResource("2_ui6n8")
+
+[node name="Side_001" parent="Sofa" index="11"]
+material_override = ExtResource("2_ui6n8")

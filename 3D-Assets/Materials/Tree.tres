@@ -1,0 +1,13 @@
+[gd_resource type="StandardMaterial3D" load_steps=5 format=3 uid="uid://dnb8xdfwj3x5x"]
+
+[ext_resource type="Texture2D" uid="uid://ca8i3clphnr7p" path="res://3D-Assets/Textures/Tree/Tree_Tex_Grass_BaseColor.1001.png" id="1_wpv1w"]
+[ext_resource type="Texture2D" uid="uid://xw1yy7hfs6ha" path="res://3D-Assets/Textures/Sofa_Tex/Sofa_Tex_Material.002_AO.1001.png" id="2_7enoe"]
+[ext_resource type="Texture2D" uid="uid://5j6l5a1cpkf2" path="res://3D-Assets/Textures/Tree/Tree_Tex_Grass_Metallic.1001.png" id="3_16vt6"]
+[ext_resource type="Texture2D" uid="uid://c3f4tv2n80yru" path="res://3D-Assets/Textures/Tree/Tree_Tex_Grass_Normal.1001.png" id="4_hyla2"]
+
+[resource]
+cull_mode = 2
+albedo_texture = ExtResource("1_wpv1w")
+metallic_texture = ExtResource("3_16vt6")
+normal_texture = ExtResource("4_hyla2")
+ao_texture = ExtResource("2_7enoe")

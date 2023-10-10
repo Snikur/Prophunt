@@ -1,0 +1,27 @@
+[gd_scene load_steps=3 format=3 uid="uid://gun7bd43m2q6"]
+
+[ext_resource type="PackedScene" uid="uid://cpiju65qkp2m4" path="res://3D-Assets/Mesh/Chair_Mesh.glb" id="1_bhps2"]
+[ext_resource type="Material" uid="uid://neibis87oj52" path="res://3D-Assets/Materials/Chair.tres" id="2_8ov6q"]
+
+[node name="Chair_Mesh" instance=ExtResource("1_bhps2")]
+
+[node name="Cube_039" parent="ChairPivot" index="0"]
+material_override = ExtResource("2_8ov6q")
+
+[node name="Cube_040" parent="ChairPivot" index="1"]
+material_override = ExtResource("2_8ov6q")
+
+[node name="Cube_041" parent="ChairPivot" index="2"]
+material_override = ExtResource("2_8ov6q")
+
+[node name="Cube_042" parent="ChairPivot" index="3"]
+material_override = ExtResource("2_8ov6q")
+
+[node name="Cube_099" parent="ChairPivot" index="4"]
+material_override = ExtResource("2_8ov6q")
+
+[node name="Cube_100" parent="ChairPivot" index="5"]
+material_override = ExtResource("2_8ov6q")
+
+[node name="Cube_101" parent="ChairPivot" index="6"]
+material_override = ExtResource("2_8ov6q")

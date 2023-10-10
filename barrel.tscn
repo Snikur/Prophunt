@@ -1,0 +1,26 @@
+[gd_scene load_steps=6 format=3 uid="uid://dlb6i8ehmxl5i"]
+
+[ext_resource type="Texture2D" uid="uid://higridtbmm4k" path="res://icon.svg" id="1_7f4sg"]
+[ext_resource type="PackedScene" uid="uid://ccp7y6j62aoc4" path="res://interactable.tscn" id="2_lifrw"]
+
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_srflp"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_y1qy5"]
+albedo_texture = ExtResource("1_7f4sg")
+uv1_triplanar = true
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_2271q"]
+material = SubResource("StandardMaterial3D_y1qy5")
+
+[node name="Barrel" type="RigidBody3D"]
+
+[node name="Collider" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
+shape = SubResource("CylinderShape3D_srflp")
+
+[node name="Mesh" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
+mesh = SubResource("CylinderMesh_2271q")
+
+[node name="Interactable" parent="." instance=ExtResource("2_lifrw")]
+mesh_path = NodePath("../Mesh")

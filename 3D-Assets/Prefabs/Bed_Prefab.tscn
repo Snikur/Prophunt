@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=3 uid="uid://dpnrtduvkl0j7"]
+
+[ext_resource type="PackedScene" uid="uid://befabynusf35s" path="res://3D-Assets/Mesh/Bed_Mesh.glb" id="1_l07u3"]
+[ext_resource type="Material" path="res://3D-Assets/Materials/Bed&Fridge.tres" id="2_vdods"]
+
+[node name="Bed_Mesh" instance=ExtResource("1_l07u3")]
+
+[node name="Bed" parent="." index="0"]
+material_override = ExtResource("2_vdods")
+
+[node name="BedFrame" parent="." index="1"]
+material_override = ExtResource("2_vdods")

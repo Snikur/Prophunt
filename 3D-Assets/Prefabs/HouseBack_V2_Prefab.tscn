@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://c2njqhvjumfkk"]
+
+[ext_resource type="PackedScene" uid="uid://kc6dpm334mcb" path="res://3D-Assets/Mesh/HouseBack_Mesh.glb" id="1_exc5q"]
+[ext_resource type="Material" uid="uid://ciqxiuubagop3" path="res://3D-Assets/Materials/HouseV2.tres" id="2_r4qil"]
+
+[node name="HouseBack_Mesh" instance=ExtResource("1_exc5q")]
+
+[node name="Cube_067" parent="HouseBack" index="0"]
+material_override = ExtResource("2_r4qil")

@@ -1,0 +1,13 @@
+[gd_resource type="StandardMaterial3D" load_steps=5 format=3 uid="uid://btr1jgbxr0r4l"]
+
+[ext_resource type="Texture2D" uid="uid://c0weden5c5fmr" path="res://3D-Assets/Textures/Bed&Fridge_Tex/Fast_DefaultMaterial_BaseColor.1001.png" id="1_q0nnt"]
+[ext_resource type="Texture2D" uid="uid://xw1yy7hfs6ha" path="res://3D-Assets/Textures/Sofa_Tex/Sofa_Tex_Material.002_AO.1001.png" id="2_qpclp"]
+[ext_resource type="Texture2D" uid="uid://bn66bjajywy1b" path="res://3D-Assets/Textures/Bed&Fridge_Tex/Fast_DefaultMaterial_Metallic.1001.png" id="3_fr11f"]
+[ext_resource type="Texture2D" uid="uid://jhc4f5ucmo18" path="res://3D-Assets/Textures/Box&vase_Tex/BoxVaseTex_DefaultMaterial_Normal.1001.png" id="4_dncqr"]
+
+[resource]
+cull_mode = 2
+albedo_texture = ExtResource("1_q0nnt")
+metallic_texture = ExtResource("3_fr11f")
+normal_texture = ExtResource("4_dncqr")
+ao_texture = ExtResource("2_qpclp")

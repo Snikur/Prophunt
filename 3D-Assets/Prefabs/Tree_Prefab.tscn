@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=3 uid="uid://cwrqkhxd6rfuq"]
+
+[ext_resource type="PackedScene" uid="uid://bb7gayxoj0pcw" path="res://3D-Assets/Mesh/Tree_Mesh.glb" id="1_ku00c"]
+[ext_resource type="Material" uid="uid://dnb8xdfwj3x5x" path="res://3D-Assets/Materials/Tree.tres" id="2_0rkn7"]
+
+[node name="Tree_Mesh" instance=ExtResource("1_ku00c")]
+
+[node name="Trunk" parent="." index="0"]
+material_override = ExtResource("2_0rkn7")
+
+[node name="TreeLeafs" parent="." index="1"]
+material_override = ExtResource("2_0rkn7")

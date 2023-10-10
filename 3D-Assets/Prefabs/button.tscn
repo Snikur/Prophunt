@@ -1,0 +1,15 @@
+[gd_scene load_steps=4 format=3 uid="uid://sba4vex170a4"]
+
+[ext_resource type="PackedScene" uid="uid://dutkbitk0836k" path="res://3D-Assets/Mesh/Button.glb" id="1_0jgbr"]
+[ext_resource type="Material" uid="uid://mev3wyqm1oqp" path="res://3D-Assets/Materials/button.tres" id="2_hs5aj"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_law6b"]
+albedo_color = Color(0.686275, 0, 0, 1)
+
+[node name="Button" instance=ExtResource("1_0jgbr")]
+
+[node name="ButtonBase" parent="." index="0"]
+surface_material_override/0 = ExtResource("2_hs5aj")
+
+[node name="ButtonButton" parent="." index="1"]
+surface_material_override/0 = SubResource("StandardMaterial3D_law6b")

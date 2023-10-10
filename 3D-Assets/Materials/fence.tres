@@ -1,0 +1,11 @@
+[gd_resource type="StandardMaterial3D" load_steps=4 format=3 uid="uid://b6sp8jnp450y"]
+
+[ext_resource type="Texture2D" uid="uid://b2ehoxdhgo61u" path="res://3D-Assets/Textures/Fence/Fence_DefaultMaterial_BaseColor.png" id="1_ovx1d"]
+[ext_resource type="Texture2D" uid="uid://qjkpdxvsqfue" path="res://3D-Assets/Textures/Fence/Fence_DefaultMaterial_AO.png" id="2_xhx1e"]
+[ext_resource type="Texture2D" uid="uid://d15g4wv4jb02e" path="res://3D-Assets/Textures/Fence/Fence_DefaultMaterial_Roughness.png" id="3_25wfo"]
+
+[resource]
+albedo_texture = ExtResource("1_ovx1d")
+roughness_texture = ExtResource("3_25wfo")
+ao_enabled = true
+ao_texture = ExtResource("2_xhx1e")

@@ -1,0 +1,15 @@
+[gd_resource type="StandardMaterial3D" load_steps=6 format=3 uid="uid://ctm0jyarbfq68"]
+
+[ext_resource type="Texture2D" uid="uid://crtea8o4dp2fc" path="res://3D-Assets/Textures/HouseV1_Tex/Houses_Grass_BaseColor.1001.png" id="1_pd8vy"]
+[ext_resource type="Texture2D" uid="uid://xw1yy7hfs6ha" path="res://3D-Assets/Textures/Sofa_Tex/Sofa_Tex_Material.002_AO.1001.png" id="2_et1vl"]
+[ext_resource type="Texture2D" uid="uid://dqwdcduf8mkc1" path="res://3D-Assets/Textures/HouseV1_Tex/Houses_Grass_Metallic.1001.png" id="3_qr6lj"]
+[ext_resource type="Texture2D" uid="uid://clr7qagqf1gp8" path="res://3D-Assets/Textures/Sofa_Tex/Sofa_Tex_Material.002_Normal.1001.png" id="4_26kpt"]
+[ext_resource type="Texture2D" uid="uid://bah3gn0prioq0" path="res://3D-Assets/Textures/HouseV1_Tex/Houses_Grass_Roughness.1001.png" id="5_fuaos"]
+
+[resource]
+albedo_texture = ExtResource("1_pd8vy")
+metallic = 1.0
+metallic_texture = ExtResource("3_qr6lj")
+roughness_texture = ExtResource("5_fuaos")
+normal_texture = ExtResource("4_26kpt")
+ao_texture = ExtResource("2_et1vl")

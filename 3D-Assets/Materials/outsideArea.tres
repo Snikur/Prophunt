@@ -1,0 +1,11 @@
+[gd_resource type="StandardMaterial3D" load_steps=4 format=3 uid="uid://cebsfjlmxk58k"]
+
+[ext_resource type="Texture2D" uid="uid://bd01nvylrlsah" path="res://3D-Assets/Textures/ExteriorHouse/OutsideArea_DefaultMaterial_BaseColor.png" id="1_u2osa"]
+[ext_resource type="Texture2D" uid="uid://b2xtwe7gewpq0" path="res://3D-Assets/Textures/ExteriorHouse/OutsideArea_DefaultMaterial_AO.png" id="2_ogfjv"]
+[ext_resource type="Texture2D" uid="uid://serir5jfn3bg" path="res://3D-Assets/Textures/ExteriorHouse/OutsideArea_DefaultMaterial_Roughness.png" id="3_qyc8l"]
+
+[resource]
+albedo_texture = ExtResource("1_u2osa")
+roughness_texture = ExtResource("3_qyc8l")
+ao_enabled = true
+ao_texture = ExtResource("2_ogfjv")

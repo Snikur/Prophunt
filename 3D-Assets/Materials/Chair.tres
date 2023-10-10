@@ -1,0 +1,14 @@
+[gd_resource type="StandardMaterial3D" load_steps=5 format=3 uid="uid://neibis87oj52"]
+
+[ext_resource type="Texture2D" uid="uid://b0kkxbhqfs6nx" path="res://3D-Assets/Textures/Chair_Tex/cHAItEX_DefaultMaterial_BaseColor.1001.png" id="1_ab85t"]
+[ext_resource type="Texture2D" uid="uid://y4ryhocnkq23" path="res://3D-Assets/Textures/Chair_Tex/cHAItEX_DefaultMaterial_AO.1001.png" id="2_lvv6u"]
+[ext_resource type="Texture2D" uid="uid://dw0af2n4x36da" path="res://3D-Assets/Textures/Chair_Tex/cHAItEX_DefaultMaterial_Metallic.1001.png" id="3_ok8pq"]
+[ext_resource type="Texture2D" uid="uid://dtmnxd27ky3lo" path="res://3D-Assets/Textures/Chair_Tex/cHAItEX_DefaultMaterial_Roughness.1001.png" id="4_yv65t"]
+
+[resource]
+albedo_texture = ExtResource("1_ab85t")
+metallic = 1.0
+metallic_texture = ExtResource("3_ok8pq")
+roughness_texture = ExtResource("4_yv65t")
+ao_enabled = true
+ao_texture = ExtResource("2_lvv6u")

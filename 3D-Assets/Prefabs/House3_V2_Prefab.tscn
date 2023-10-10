@@ -1,0 +1,27 @@
+[gd_scene load_steps=3 format=3 uid="uid://cuwxughmswmqm"]
+
+[ext_resource type="PackedScene" uid="uid://dxfkmcq023ewn" path="res://3D-Assets/Mesh/House3_Mesh.glb" id="1_8kln3"]
+[ext_resource type="Material" uid="uid://ciqxiuubagop3" path="res://3D-Assets/Materials/HouseV2.tres" id="2_xq017"]
+
+[node name="House3_Mesh" instance=ExtResource("1_8kln3")]
+
+[node name="Cylinder_004" parent="House1" index="0"]
+material_override = ExtResource("2_xq017")
+
+[node name="Cylinder_026" parent="House1" index="1"]
+material_override = ExtResource("2_xq017")
+
+[node name="Window_004" parent="House1" index="2"]
+material_override = ExtResource("2_xq017")
+
+[node name="Window_005" parent="House1" index="3"]
+material_override = ExtResource("2_xq017")
+
+[node name="Window_006" parent="House1" index="4"]
+material_override = ExtResource("2_xq017")
+
+[node name="Window_007" parent="House1" index="5"]
+material_override = ExtResource("2_xq017")
+
+[node name="Cube_057" parent="House3" index="0"]
+material_override = ExtResource("2_xq017")

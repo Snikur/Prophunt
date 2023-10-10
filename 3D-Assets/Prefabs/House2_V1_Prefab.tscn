@@ -1,0 +1,30 @@
+[gd_scene load_steps=3 format=3 uid="uid://d0rj46cavl0ku"]
+
+[ext_resource type="PackedScene" uid="uid://b3ce4o8e0mj33" path="res://3D-Assets/Mesh/House2_Mesh.glb" id="1_vnpad"]
+[ext_resource type="Material" uid="uid://ctm0jyarbfq68" path="res://3D-Assets/Materials/HouseV1.tres" id="2_ftx6o"]
+
+[node name="House2_Mesh" instance=ExtResource("1_vnpad")]
+
+[node name="Cylinder_024" parent="House1" index="0"]
+material_override = ExtResource("2_ftx6o")
+
+[node name="Cylinder_025" parent="House1" index="1"]
+material_override = ExtResource("2_ftx6o")
+
+[node name="Window_009" parent="House1" index="2"]
+material_override = ExtResource("2_ftx6o")
+
+[node name="Window_010" parent="House1" index="3"]
+material_override = ExtResource("2_ftx6o")
+
+[node name="Window_012" parent="House1" index="4"]
+material_override = ExtResource("2_ftx6o")
+
+[node name="Cube_052" parent="House2" index="0"]
+material_override = ExtResource("2_ftx6o")
+
+[node name="Cylinder_005" parent="House2" index="1"]
+material_override = ExtResource("2_ftx6o")
+
+[node name="Cylinder_006" parent="House2" index="2"]
+material_override = ExtResource("2_ftx6o")

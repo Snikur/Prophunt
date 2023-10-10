@@ -1,0 +1,24 @@
+[gd_scene load_steps=3 format=3 uid="uid://d1idndgpfcri8"]
+
+[ext_resource type="PackedScene" uid="uid://omjt5oib1nxk" path="res://Player/robotCharacter.gltf" id="1_egvh5"]
+[ext_resource type="Material" path="res://3D-Assets/Materials/RobotCharacter.tres" id="2_m2ejv"]
+
+[node name="robotCharacter" instance=ExtResource("1_egvh5")]
+
+[node name="Armature_001" parent="." index="0"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.311775, 0)
+
+[node name="Cube_034" parent="Armature_001" index="0"]
+surface_material_override/0 = ExtResource("2_m2ejv")
+
+[node name="Skeleton3D" parent="Armature_001" index="1"]
+bones/0/rotation = Quaternion(-0.160132, 0, 0, 0.987096)
+
+[node name="Cube_035" parent="Armature_001/Skeleton3D" index="0"]
+surface_material_override/0 = ExtResource("2_m2ejv")
+
+[node name="Cylinder_041" parent="Armature_001/Skeleton3D" index="1"]
+surface_material_override/0 = ExtResource("2_m2ejv")
+
+[node name="Cylinder_048" parent="Armature_001/Skeleton3D" index="2"]
+surface_material_override/0 = ExtResource("2_m2ejv")

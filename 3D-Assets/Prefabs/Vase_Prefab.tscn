@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://bjw3decgi0q8t"]
+
+[ext_resource type="PackedScene" uid="uid://dkq8gei3f2vm6" path="res://3D-Assets/Mesh/Vase.glb" id="1_io1h2"]
+[ext_resource type="Material" uid="uid://cb0rhdv7ec6di" path="res://3D-Assets/Materials/Box&Vase.tres" id="2_nbki7"]
+
+[node name="Vase" instance=ExtResource("1_io1h2")]
+
+[node name="Vase2" parent="." index="0"]
+material_override = ExtResource("2_nbki7")

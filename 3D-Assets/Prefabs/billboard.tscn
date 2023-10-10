@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://sjjoojr71s51"]
+
+[ext_resource type="PackedScene" uid="uid://dsb4wdt8qbjw7" path="res://3D-Assets/Mesh/Billboard.glb" id="1_5tpye"]
+[ext_resource type="Material" uid="uid://dg36byd0gop42" path="res://3D-Assets/Materials/billboard.tres" id="2_5t4st"]
+
+[node name="Billboard" instance=ExtResource("1_5tpye")]
+
+[node name="Cube_109" parent="." index="0"]
+surface_material_override/0 = ExtResource("2_5t4st")
+
+[node name="Cylinder" parent="." index="1"]
+surface_material_override/0 = ExtResource("2_5t4st")
+
+[node name="Cylinder_001" parent="." index="2"]
+surface_material_override/0 = ExtResource("2_5t4st")

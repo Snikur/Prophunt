@@ -1,0 +1,21 @@
+[gd_scene load_steps=7 format=3 uid="uid://dj1ktp8vatlo6"]
+
+[ext_resource type="PackedScene" uid="uid://dsmhfsua16qcp" path="res://3D-Assets/Mesh/Frame.glb" id="1_s0gxb"]
+[ext_resource type="Texture2D" uid="uid://h6108mm0heqk" path="res://3D-Assets/Textures/Frame/Frame_DefaultMaterial_BaseColor.png" id="2_oj0rc"]
+[ext_resource type="Texture2D" uid="uid://dr16ijsgex3dw" path="res://3D-Assets/Textures/Frame/Frame_DefaultMaterial_AO.png" id="3_86rxb"]
+[ext_resource type="Texture2D" uid="uid://h1p03h2d5ome" path="res://3D-Assets/Textures/Frame/Frame_DefaultMaterial_Roughness.png" id="4_u7bgb"]
+[ext_resource type="PackedScene" uid="uid://ccp7y6j62aoc4" path="res://interactable.tscn" id="5_ptnuv"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_jcp4r"]
+albedo_texture = ExtResource("2_oj0rc")
+roughness_texture = ExtResource("4_u7bgb")
+ao_enabled = true
+ao_texture = ExtResource("3_86rxb")
+
+[node name="Frame" instance=ExtResource("1_s0gxb")]
+
+[node name="Cube_108" parent="." index="0"]
+surface_material_override/0 = SubResource("StandardMaterial3D_jcp4r")
+
+[node name="Interactable" parent="." index="1" instance=ExtResource("5_ptnuv")]
+mesh_path = NodePath("../Cube_108")
