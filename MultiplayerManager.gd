@@ -56,7 +56,7 @@ func client_requested_mesh(mesh_path: String):
 	print("client ", sender_id, " requested ", mesh_path)
 	server_change_mesh.rpc(sender_id, mesh_path)
 
-@rpc("authority", "reliable", "call_local") # change mesh from player with id
+@rpc("authority", "reliable", "call_local") # change mesh for player with id
 func server_change_mesh(id: int, mesh_path: String):
 	print("change ", id, " clientside ", mesh_path)
 	for player in list_of_players:
