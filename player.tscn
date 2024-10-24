@@ -23,7 +23,7 @@ mesh = SubResource("SphereMesh_1wp4y")
 shape = SubResource("SphereShape3D_8rfy2")
 
 [node name="PhantomCamera3D" type="Node3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 0.812628, 0.582782, 0, -0.582782, 0.812628, 0, 3.53553, 3.53553)
+transform = Transform3D(1, 0, 0, 0, 0.812628, 0.582782, 0, -0.582782, 0.812628, 0, 3.53553, 3.53554)
 script = ExtResource("2_2iygo")
 priority_override = false
 priority = 2

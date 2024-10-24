@@ -184,4 +184,3 @@ func jump():
 	gravity = -jump_strength
 	jump_single = false;
 	jump_double = true;
-
